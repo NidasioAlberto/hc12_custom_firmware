@@ -1,0 +1,36 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+//
+// PIO Unified Debugger
+//
+// Documentation: https://docs.platformio.org/page/plus/debugging.html
+// Configuration: https://docs.platformio.org/page/projectconf/section_env_debug.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug",
+            "executable": "/work/hc12_custom_firmware/.pio/build/blink/firmware.elf",
+            "projectEnvName": "blink",
+            "toolchainBinDir": "/home/alberton/.platformio/packages/tool-stm8binutils/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "/home/alberton/.platformio/platforms/ststm8/misc/svd/STM8S003F3.svd",
+            "preLaunchTask": {
+                "type": "PlatformIO",
+                "task": "Pre-Debug"
+            }
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (skip Pre-Debug)",
+            "executable": "/work/hc12_custom_firmware/.pio/build/blink/firmware.elf",
+            "projectEnvName": "blink",
+            "toolchainBinDir": "/home/alberton/.platformio/packages/tool-stm8binutils/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "/home/alberton/.platformio/platforms/ststm8/misc/svd/STM8S003F3.svd"
+        }
+    ]
+}

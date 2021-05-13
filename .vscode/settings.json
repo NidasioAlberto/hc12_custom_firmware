@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "stm8s.h": "c",
+        "stm8s_conf.h": "c",
+        "stm8s_it.h": "c",
+        "stm8s_clk.h": "c",
+        "stm8s_gpio.h": "c",
+        "precise_delay.h": "c",
+        "stdio.h": "c"
+    }
+}
